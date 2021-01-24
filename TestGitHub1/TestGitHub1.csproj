@@ -67,9 +67,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="js2\jquery-1.11.3.min.js" />
+    <Content Include="js2\jquery-2.1.4.min.js" />
+    <Content Include="js2\jquery-2.2.0.min.js" />
+    <Content Include="js2\jquery.dataTables.min.js" />
+    <Content Include="PM_mockup.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PM_mockup.aspx.cs">
+      <DependentUpon>PM_mockup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PM_mockup.aspx.designer.cs">
+      <DependentUpon>PM_mockup.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -81,6 +93,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
