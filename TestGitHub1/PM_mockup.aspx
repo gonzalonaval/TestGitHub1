@@ -381,7 +381,7 @@
             background-color: #FBFBFB;
             font-family: verdana, arial, sans-serif;
             font-size: 14px;
-            background: url(../Images/Buscar_azul2.png) no-repeat scroll;
+            background: url(../Images1/Buscar_azul2.png) no-repeat scroll;
             background-position: right;
             background-size: 12%;
         }
@@ -753,7 +753,7 @@
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <link rel="icon"
         type="image/png"
-        href="../Images/todaytasks.png" />
+        href="../Images1/todaytasks.png" />
     <link rel="stylesheet" href="jquery-ui/jquery-ui.css" />
     <script src="jquery-ui/jquery-ui.js"></script>
     <script type="text/javascript">
@@ -775,21 +775,21 @@
             console.log('domain:' + domain);
             var V_loaded_path = "0";
             // Imagenes-iconos pantalla planificacion
-            var V_img_planG = '<input type="image" src="../Images/Plan_gris.png" alt="Planificacion" width="40" height="40">';
-            var V_img_recG = '<input type="image" src="../Images/Recursos_gris.png" alt="Planificacion" width="40" height="40">';
-            var V_img_costesG = '<input type="image" src="../Images/Costes_reales_gris.png" alt="Planificacion" width="40" height="40">';
-            var V_img_dele = '<input type="image" src="../Images/dele_blue.png" title = "Borrar Recurso" alt="Planificacion" width="14" height="18">';
-            var V_img_addblue = '<div class="Icono"><input type="image" src="../Images/add_blue.png" title = "Add record" alt="Add" width="14" height="14"><div>';
-            var V_img_cerrada = '<input type="image" src="../Images/Carpeta_cerrada2.png" alt="Planificacion" width="10" height="10">';
-            var V_img_abierta = '<input type="image" src="../Images/Carpeta_abierta2.png" alt="Planificacion" width="10" height="10">';
-            var V_img_config = '<input type="image" src="../Images/Cofig_azul.png" alt="Configuracion" width="20" height="20">';
-            var V_img_config = '<input type="image" src="../Images/Cofig_azul.png" alt="Configuracion" width="20" height="20">';
-            var V_img_gener = '<input type="image" src="../Images/Generate_blue.png" title ="Rellena entradas con valores restantes" alt="Configuracion" width="20" height="20">';
-            var V_img_runBlue = '<input type="image" src="../Images/Run_blue.png" title ="Rellena entradas" alt="Configuracion" width="20" height="20">';
-            var V_img_semana = '<input type="image" src="../Images/semana.png" title ="SEMANA" alt="Configuracion" width="30" height="30">';
-            var V_img_quincena = '<input type="image" src="../Images/quincena.png" title ="QUINCENA" alt="Configuracion" width="30" height="30">';
-            var V_img_excel = '<input type="image" src="../Images/Ic_excel.png" title ="QUINCENA" alt="Configuracion" width="20" height="20">';
-            var V_img_save = '<input type="image" src="../Images/Save_blue2.png" title ="QUINCENA" alt="Configuracion" width="20" height="20">';
+            var V_img_planG = '<input type="image" src="../Images1/Plan_gris.png" alt="Planificacion" width="40" height="40">';
+            var V_img_recG = '<input type="image" src="../Images1/Recursos_gris.png" alt="Planificacion" width="40" height="40">';
+            var V_img_costesG = '<input type="image" src="../Images1/Costes_reales_gris.png" alt="Planificacion" width="40" height="40">';
+            var V_img_dele = '<input type="image" src="../Images1/dele_blue.png" title = "Borrar Recurso" alt="Planificacion" width="14" height="18">';
+            var V_img_addblue = '<div class="Icono"><input type="image" src="../Images1/add_blue.png" title = "Add record" alt="Add" width="14" height="14"><div>';
+            var V_img_cerrada = '<input type="image" src="../Images1/Carpeta_cerrada2.png" alt="Planificacion" width="10" height="10">';
+            var V_img_abierta = '<input type="image" src="../Images1/Carpeta_abierta2.png" alt="Planificacion" width="10" height="10">';
+            var V_img_config = '<input type="image" src="../Images1/Cofig_azul.png" alt="Configuracion" width="20" height="20">';
+            var V_img_config = '<input type="image" src="../Images1/Cofig_azul.png" alt="Configuracion" width="20" height="20">';
+            var V_img_gener = '<input type="image" src="../Images1/Generate_blue.png" title ="Rellena entradas con valores restantes" alt="Configuracion" width="20" height="20">';
+            var V_img_runBlue = '<input type="image" src="../Images1/Run_blue.png" title ="Rellena entradas" alt="Configuracion" width="20" height="20">';
+            var V_img_semana = '<input type="image" src="../Images1/semana.png" title ="SEMANA" alt="Configuracion" width="30" height="30">';
+            var V_img_quincena = '<input type="image" src="../Images1/quincena.png" title ="QUINCENA" alt="Configuracion" width="30" height="30">';
+            var V_img_excel = '<input type="image" src="../Images1/Ic_excel.png" title ="QUINCENA" alt="Configuracion" width="20" height="20">';
+            var V_img_save = '<input type="image" src="../Images1/Save_blue2.png" title ="QUINCENA" alt="Configuracion" width="20" height="20">';
 
             // Datos dinamicos panel superior
             var V_display_mode_PLAN = "";
@@ -2727,7 +2727,7 @@
                         }
                     }
                 }
-                //V_html = V_html + '<tr><td class = "INSERTAR_FILA_F"><div class = "Insertar_filaF"><input type="image" title = "Insertar fila" src="../Images/Add_item.png" alt="Next week" width="15" height="15"></div></td></tr>';
+                //V_html = V_html + '<tr><td class = "INSERTAR_FILA_F"><div class = "Insertar_filaF"><input type="image" title = "Insertar fila" src="../Images1/Add_item.png" alt="Next week" width="15" height="15"></div></td></tr>';
                 $('#TABLA_DATOS_PROYECTO_SEM_F2').append(V_html);
                 //console.log('V_html0:' + V_html0);
                 $('#TABLA_DATOS_PROYECTO_SEM_F1').append(V_html0);
@@ -3396,7 +3396,7 @@
                 // AÑADE FILA DE TOTALES PLAN
                 V_html = '<tr class="TOTALES"><td>TOTALES PLAN A FECHA</td><td></td><td class = "TextC">' + V_total_dias_plan + '</td><td></td><td class = "TextC">' + FormateaImporte(V_total_coste_plan) + '<td></td></td>'; // GN 18102019
                 V_html = V_html + '</tr>';
-                V_html = V_html + '<tr class = "INSERTAR_FILA_R"><td><div class = "Insertar_filaR"><input type="image" title = "Insertar fila" src="../Images/Add_item.png" alt="Next week" width="15" height="15"></div></td></tr>';
+                V_html = V_html + '<tr class = "INSERTAR_FILA_R"><td><div class = "Insertar_filaR"><input type="image" title = "Insertar fila" src="../Images1/Add_item.png" alt="Next week" width="15" height="15"></div></td></tr>';
                 $('#TABLA_DATOS_PROYECTO_SEM_R').append(V_html);
                 $('.Borrar_recurso').on('click', function (e) {
                     console.log('Borrar fila recurso ');
@@ -3893,7 +3893,7 @@
                 }
                 V_html = V_html + '</tr><tr class="TOTALES"><td>TOTALES PLAN A FECHA</td><td></td><td class = "TextC">' + V_total_dias_plan;
                 V_html = V_html + '</td><td></td><td class = "TextC">' + FormateaImporte(V_total_coste_plan) + '<td></td></td></tr>';
-                //V_html = V_html + '<tr class = "INSERTAR_FILA_R"><td><div class = "Insertar_filaR"><input type="image" title = "Insertar fila" src="../Images/Add_item.png" alt="Next week" width="15" height="15"></div></td></tr>';
+                //V_html = V_html + '<tr class = "INSERTAR_FILA_R"><td><div class = "Insertar_filaR"><input type="image" title = "Insertar fila" src="../Images1/Add_item.png" alt="Next week" width="15" height="15"></div></td></tr>';
                 //$('#TABLA_DATOS_PROYECTO_SEM_R').append(V_html);
                 var I_row = $('table#TABLA_DATOS_PROYECTO_SEM_R tr:last').index() - 1; // AÑADE LA FILA EN LA ANTERIOR A LA ULTIMA
                 //console.log('I_row:' + I_row);
@@ -3911,7 +3911,7 @@
                 var today = new Date();
                 var V_htmlT = '<div class ="panel_tiemposH"><table class = "headt"><tr><td style="width:' + V_margen + 'px"></td>';
                 var V_htmlT = V_htmlT + '<td style="vertical-align:bottom; float:right">';
-                var V_htmlT = V_htmlT + '<input type="image" style:"float:right" class="Prev_week" src="../Images/Flechazul1.png" alt="Previos week" width="30" height="30">';
+                var V_htmlT = V_htmlT + '<input type="image" style:"float:right" class="Prev_week" src="../Images1/Flechazul1.png" alt="Previos week" width="30" height="30">';
                 var V_htmlT = V_htmlT + '<td class = "T_but_text" style="text-align:center ; width: 400px ; vertical-align:middle">';
                 var dayOfWeekStartingSundayZeroIndexBased = today.getDay(); // 0 : Sunday ,1 : Monday,2,3,4,5,6 : Saturday
                 var mondayOfWeek = new Date(today.getFullYear(), today.getMonth(), today.getDate() - today.getDay() + 1);
@@ -3923,7 +3923,7 @@
                 var V_htmlT = V_htmlT + V_text + '<asp:Label id="Dia_inicio" style="text-align:center" runat ="server"></asp:Label> to ';
                 var V_htmlT = V_htmlT + '<asp:Label id="Dia_fin" style="text-align:center" runat ="server"></asp:Label></td>';
                 var V_htmlT = V_htmlT + '<td style="vertical-align:bottom; float:left">';
-                var V_htmlT = V_htmlT + '<input type="image" class="Next_week" src="../Images/Flechazul2.png" alt="Next week" width="30" height="30"></td>';
+                var V_htmlT = V_htmlT + '<input type="image" class="Next_week" src="../Images1/Flechazul2.png" alt="Next week" width="30" height="30"></td>';
                 var V_htmlT = V_htmlT + '<td style="width:' + V_margen + 'px"></td></tr></table></div><hr><br>';
                 var V_htmlT = V_htmlT + '<div class ="panel_tiemposT"><div style="width:100%; height:20px"><div class= "multi-div" style="float:right;"">';
                 //var V_htmlT = V_htmlT + '<div id="SEM" class="box_sel" title="Semana">SEM</div><div id="QUI" title="Quincena" class="box_sel">QUI</div></div></div><br>';

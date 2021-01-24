@@ -67,6 +67,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images1\add_blue.png" />
+    <Content Include="Images1\Buscar_azul2.png" />
+    <Content Include="Images1\Carpeta_abierta2.png" />
+    <Content Include="Images1\Carpeta_cerrada2.png" />
+    <Content Include="Images1\Cofig_azul.png" />
+    <Content Include="Images1\Costes_reales_gris.png" />
+    <Content Include="Images1\dele_blue.png" />
+    <Content Include="Images1\Generate_azul.png" />
+    <Content Include="Images1\Generate_blue.png" />
+    <Content Include="Images1\Ic_excel.png" />
+    <Content Include="Images1\Percentage_azul.png" />
+    <Content Include="Images1\Plan_gris.png" />
+    <Content Include="Images1\Quincena.png" />
+    <Content Include="Images1\Recursos_gris.png" />
+    <Content Include="Images1\Run_blue.png" />
+    <Content Include="Images1\Save_blue2.png" />
+    <Content Include="Images1\Semana.png" />
+    <Content Include="Images1\todaytasks.png" />
     <Content Include="js2\jquery-1.11.3.min.js" />
     <Content Include="js2\jquery-2.1.4.min.js" />
     <Content Include="js2\jquery-2.2.0.min.js" />
